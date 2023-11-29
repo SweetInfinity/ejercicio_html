@@ -1,24 +1,54 @@
 <!DOCTYPE html>
-<html lang="es">
+    <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Esta es una web de ejercicio de html con etiquetas">
-        <meta name="keywords" content="Web, ejercicio, html, etiquetas">
-        <meta name="author" content="Amanda">
-        <title>HTML</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Esta es una web de formularios">
+            <meta name="keywords" content="Web, ejercicio, formulario">
+            <meta name="author" content="Amanda">
+            <title>Formulario</title>
     </head>
     <body>
-        - <b> - Negrita sin importancia semántica (Bold Text) </b>
-        - <strong> - Resaltado. Tiene importancia semántica (Important text) </strong>
-        - <i> - Cursiva sin importancia semántica (Italic text) </i>
-        - <em> - enfatizar texto con importancia semántica (Emphasized text) </em>
-        - <mark> - Texto marcado o resaltado (Marked text) </mark>
-        - <small> - Comentarios en letra pequeña (Smaller text) </small>
-        - <sub> - Subíndice (Subscript text) </sub>
-        - <sup> - Superíndice (Superscript text) </sup>
-        - <pre> - Texto preformateado, es decir conserva los espacios en blanco y saltos de línea como aparecen en el código fuente (Preformatted text) </pre>
-        - <span> - Texto que queremos identificar para aplicar estilos CSS diferentes. </span>
+        <form action="guardar()" method="GET">
+            <label>Nombre:</label> 
+            <input type="text" name="name"> <br> <br>
+            
+
+            <label>Apellido:</label> 
+            <input type="text" name="name"> <br> <br>
+            
+            <input type="radio" id="opcion1" name="opciones" value="opcion1">
+            <label for="opcion1">Mujer</label>
+
+            <input type="radio" id="opcion2" name="opciones" value="opcion2">
+            <label for="opcion2">Hombre</label>
+
+            <input type="radio" id="opcion3" name="opciones" value="opcion3">
+            <label for="opcion3">Sin especificar</label> <br> <br>
+
+            <label>Email:</label> 
+            <input type="text" name="name"> <br> <br>
+            
+
+            <label>Contraseña:</label> 
+            <input type="text" name="name"> <br> <br>
+
+            <select name="Tipo de via" id="Calle, Avenida, Paseo"> 
+                <label>Tipo de via</label>
+                <input type="text" name="Via"> <br> <br>
+            </select>
+
+            <label>Nombre de la via</label> 
+            <input type="text" name="name"> <br> <br>
+            
+            <label>Número</label>
+            <input type="text" name="name"> <br> <br>
+        
+            <label>Código postal</label>
+            <input type="text" name="name"> <br> <br>
+
+            <input type="checkbox" id="verificar" name="verificar" value="verificado">
+            <label for="verificar">Verificar que todos los campos son correctos</label>
+        </form>
     </body>
 </html>
-    
