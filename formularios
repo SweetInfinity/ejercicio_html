@@ -1,0 +1,54 @@
+<!DOCTYPE html >
+    < html  lang =" es " >
+    < cabeza >
+        < meta  juego de caracteres =" UTF-8 " >
+            < meta  nombre =" ventana gráfica " contenido =" ancho = ancho del dispositivo, escala inicial = 1,0 " >
+            < meta  name =" descripción " content =" Esta es una web de formularios " >
+            < meta  nombre =" palabras clave " contenido =" Web, ejercicio, formulario " >
+            < meta  nombre =" autor " contenido =" Amanda " >
+            < título > Formulario </ título >
+    </cabeza> _ _
+    < cuerpo >
+        < formulario  acción =" guardar() " método =" GET " >
+            < etiqueta > Nombre: </ etiqueta > 
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+
+            < etiqueta > Apellido: </ etiqueta > 
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+            < tipo de entrada  =" radio " id =" opcion1 " nombre =" opciones " valor =" opcion1 " >
+            < etiqueta  para =" opción1 " > Mujer </ etiqueta >
+
+            < tipo de entrada  =" radio " id =" opcion2 " nombre =" opciones " valor =" opcion2 " >
+            < etiqueta  para = " opcion2 " > Hombre </etiqueta> _
+
+            < tipo de entrada  =" radio " id =" opcion3 " nombre =" opciones " valor =" opcion3 " >
+            < etiqueta  para =" opcion3 " > Sin especificar </ etiqueta >  < br >  < br >
+
+            < etiqueta > Correo electrónico: </ etiqueta > 
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+
+            < etiqueta > Contraseña: </ etiqueta > 
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+            < seleccione  nombre =" Tipo de vía " id =" Calle, Avenida, Paseo " > 
+                < etiqueta > Tipo de vía </ etiqueta >
+                < tipo de entrada  =" texto " nombre =" Vía " > < br > < br >  
+            </seleccionar> _ _
+
+            < etiqueta > Nombre de la vía </ etiqueta > 
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+            < etiqueta > Número </ etiqueta >
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+            < etiqueta > Código postal </ etiqueta >
+            < tipo de entrada  =" texto " nombre =" nombre " > < br > < br >  
+
+            < tipo de entrada  =" casilla de verificación " id =" verificar " nombre =" verificar " valor =" verificado " >
+            < label  for =" verificar " > Verificar que todos los campos son correctos </ label >
+        </ formulario >
+    </cuerpo> _ _
+</html> _ _
